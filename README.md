@@ -17,8 +17,8 @@ Required inputs:
 This script will fetch tasks from the 'start date filter' to current date.
 
 The reason it is not straight forward because:
-1. date time must be provided in epoch format (at least for aws-cli)
-2. JSON document must be composed to re-run a single task
+- date time must be provided in epoch format (at least for aws-cli)
+- JSON document must be composed to re-run a single task
 
 When I got more time, I will make it run in parallel.
 
